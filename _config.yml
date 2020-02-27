@@ -3,21 +3,21 @@
   # When filling this file in, below, be sure to DELETE the "#" comments - example, greeting should look like - greeting: Hello, I'm Simpol.
 
 #content for nav.html
-title: Simpol Theme
+title: XRV.nl
 subtitle: Focus on the writing, the content.
 
 #content for index.html
   #Add your own info, deleting the comments "#". This data automatically writes to the Index page's mini, about section.
-greeting: #GREETING_GOES_HERE | default: Hello, I'm Simpol.
-logo_img: #LOGO_IMG_SRC_GOES_HERE | default: /assets/img/simpol-theme-square-writing-logo.png
+greeting: Hello, I'am Xander
+logo_img: /assets/img/header.png
 subgreeting_one: #SUBGREETING_ONE_GOES_HERE
 subgreeting_two: #SUBGREETING_TWO_GOES_HERE
 
 # Again: after inputting your content, you may need to stop and restart jekyll server for changes to take effect.
 
 #content for nav.html (shown on desktop) navigation links
-nav_link_one_name: #NAV_NAME_GOES_HERE
-nav_link_one_link: #NAV_LINK_GOES_HERE
+nav_link_one_name: Overview
+nav_link_one_link: "/"
 
 nav_link_two_name: Categories
 nav_link_two_link: "/categories"
@@ -41,21 +41,23 @@ copyright_name: Mathson Design, LLC
 
 # SEO data (https://github.com/jekyll/jekyll-seo-tag)
 logo: /assets/img/simpol-favicon.png
-description: Simpol Theme is a clean, minimal website theme all about the writing, the content. Currently available for Jekyll. Perfect for blogging.
+description: XRV blogging about coding, infrastructure, scrum, at scale
 author:
-  name: Simpol Theme
-  email: simpol@scottmathson.com
-  twitter: simpoltheme
+  name: Xander Verheij
+  email: xander@xrv.nl
+  twitter: xanderv87
 
 social:
-  name: Simpol Theme
+  name: Xander Verheij
   links:
-    - https://twitter.com/simpoltheme
-    - https://github.com/simpol-theme
+    - https://twitter.com/xanderv87
+    - https://github.com/xanderv87
+    - https://www.linkedin.com/in/xrverheij/
 
 # Build settings
 permalink: pretty
 paginate: 12
+
 
 defaults:
   -
@@ -75,3 +77,4 @@ exclude:
 - package.json
 - README.md
 - vendor
+- .idea

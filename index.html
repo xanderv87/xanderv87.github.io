@@ -5,24 +5,14 @@ layout: page
 <div class="page-wrapper">
 	<div class="inner-wrapper" id="mini-about">
 		<div class="top-headline-photo">
-			<div class="sm-1-col md-2-col lg-2-col pull-left">
-				<h1>{% if site.greeting %}{{ site.greeting }}{% else %}{{ "Hello, I'm Simpol." }}{% endif %}
-				</h1>
-			</div><!-- end .sm-1-col lg-2-col pull-left -->
-			<div class="sm-1-col md-2-col lg-2-col pull-right small-mobile-hide">
-				{% if site.logo_img %}<img src="{{ site.baseurl }}{{ site.logo_img }}" alt="{{ site.title }}">
-				{% else %}<img src="{{ site.baseurl }}/assets/img/simpol-theme-square-writing-logo.png" alt="Simpol Theme Index Logo">{% endif %}
-			</div><!-- end. sm-1-col lg-2-col pull-right mobile-hide -->
+			<img src="/assets/img/header.png" width="100%"/>
 		</div><!-- end .top-headline-photo -->
 
 		<div class="sm-1-col md-2-col lg-2-col pull-left">
-			<p>{% if site.subgreeting_one %}{{ site.subgreeting_one }}{% else %}{{ "Jekyll theme that's all about the content." }}{% endif %}
+			<p>
+				Writing about coding, infrastructure, scrum... at scale
 			</p>
-		</div><!-- end .sm-1-col lg-2-col pull-left -->
-		<div class="sm-1-col md-2-col lg-2-col pull-right">
-			<p>{% if site.subgreeting_two %}{{ site.subgreeting_two }}{% else %}{{ "Minimal, clean, simple blogging." }}{% endif %}
-			</p>
-		</div><!-- end. sm-1-col lg-2-col pull-right -->
+		</div>
 	</div><!-- end .inner-wrapper #mini-about -->
 
 	<hr>
