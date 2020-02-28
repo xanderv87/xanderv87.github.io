@@ -167,7 +167,6 @@ code {
     font-size: 0.95em;
   }
   #mini-about img {
-    /*width: 20%;*/
   }
   .smaller {
   	font-size: 0.75em;
@@ -380,3 +379,7 @@ footer p {
 .hidden {display: none;}
 .inline-block {display: inline-block;}
 .flex {display: flex;}
+
+.contact svg {
+  width: 8%;
+}

@@ -4,10 +4,10 @@ title:      "Serverless fanout API"
 description: ""
 date:       2020-01-20 17:00:00
 author:     "Xander Verheij"
-header-img: assets/img/posts/header-img/woman-typing-macbook.jpg
+header-img: assets/img/posts/serverless-fanout-api/terraform.png
 
 categories:
-  - Tips/Tricks
+  - Infrastructure as code
 ---
 # Fault tolerant fanout serverless API
 That's a lot of buzzwords in the title..
