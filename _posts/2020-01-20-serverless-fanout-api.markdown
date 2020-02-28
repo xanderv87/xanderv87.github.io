@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Serverless fanout API"
-description: ""
+description: "How to create a serverless API that can fanout to multiple services/environments"
 date:       2020-01-20 17:00:00
 author:     "Xander Verheij"
 header-img: assets/img/posts/serverless-fanout-api/terraform.png
