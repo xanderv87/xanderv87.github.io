@@ -258,6 +258,10 @@ code {
   .social-sharing svg {
     width: 3%;
   }
+
+  nav img {
+    max-width: 150px;
+  }
 }
 @media (min-width: 1060px) {
   #mini-about {
@@ -320,6 +324,10 @@ code {
   }
   .mobile-only-show {
     display: none;
+  }
+
+  nav img {
+    max-width: 100%;
   }
 }
 .page-wrapper {
