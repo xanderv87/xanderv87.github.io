@@ -4,6 +4,7 @@ title:      "PdfTK magic with Docker"
 description: "How to seamlessly use pdftk with docker"
 date:       2020-05-18 17:00:00
 author:     "Xander Verheij"
+header-img: assets/img/posts/pdftk-docker/document-icon.png
 
 categories:
   - Random
