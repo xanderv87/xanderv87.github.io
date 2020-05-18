@@ -9,7 +9,6 @@ header-img: assets/img/posts/aws-mfa-subaccount/1200px-Amazon_Web_Services_Logo.
 categories:
   - Infrastructure as code
 ---
-# Log into sub organization using AWS CLI
 At [ihomer](https://ihomer.nl) we have project for multiple clients. Each client has there own organization under our main ihomer AWS account.
 The initial approach to accessing these subaccounts was using a IAM account on each subaccount. But thanks to my collegue [Joep Joosten](https://www.linkedin.com/in/joepjoosten/) we now have a better solution!
 Using the [aws-mfa](https://github.com/joepjoosten/aws-cli-mfa-oh-my-zsh) zsh plugin we can use our (ofcource mfa secured) main account credentials to hop to the subaccount.

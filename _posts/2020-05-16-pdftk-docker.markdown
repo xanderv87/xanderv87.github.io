@@ -9,7 +9,6 @@ header-img: assets/img/posts/pdftk-docker/document-icon.png
 categories:
   - Random
 ---
-# PDFtk with docker
 
 PDFtk is a tool to do magic with pdf’s, some common use cases are the following:
 

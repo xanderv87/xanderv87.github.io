@@ -9,7 +9,6 @@ header-img: assets/img/posts/serverless-fanout-api/terraform.png
 categories:
   - Infrastructure as code
 ---
-# Fault tolerant fanout serverless API
 That's a lot of buzzwords in the title..
 ##Intro
 Imagine you are creating an application which relies heavily on live data from an external party.
