@@ -119,6 +119,7 @@ li {
 }
 pre {
   padding: 8px;
+  white-space: pre-wrap;
 }
 code {
   background-color: #333;
@@ -130,6 +131,7 @@ code {
   font-size: .8rem;
   color: #ededed;
   overflow: auto;
+  max-width: 100%;
 }
 .mono {
 	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, monospace;
