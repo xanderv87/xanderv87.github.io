@@ -36,7 +36,7 @@ footer_link_three_name: #FOOTER_NAME_GOES_HERE
 footer_link_three_link: #FOOTER_LINK_GOES_HERE
 
 baseurl: ""
-google_tracking_id: #deletme-Google Analytics Tracking ID- UA-XXXXXXXX-X
+google_tracking_id: UA-26371954-1
 copyright_name: Mathson Design, LLC
 
 # SEO data (https://github.com/jekyll/jekyll-seo-tag)
