@@ -21,11 +21,11 @@ Follow the next steps to make the magic happen!
 * [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 
 ## Install zsh plugin
-```
+```bash
 git clone --depth=1 https://github.com/joepjoosten/aws-cli-mfa-oh-my-zsh.git “$ZSH/custom/plugins/aws-mfa”
 ```
 Enable the aws-mfa plugin in your .zshrc
-```
+```bash
 plugins=(
   ...
   aws-mfa
@@ -34,21 +34,21 @@ plugins=(
 
 ## Configure AWS CLI
 Make sure to add the credentials for your main account to your ~/.aws/credentials:
-```
+```bash
 [{main_account}]
 aws_access_key_id = {access_key_id}
 aws_secret_access_key = {secret_access_key}
 ```
 
 Update your ~/.aws/config with the following for the [main-account]:
-```
+```bash
 [profile {main_account}]
 output = json
 region = eu-central-1
 ```
 
 Add the following to your ~/.aws/config for every organization/role combo you want to use for your terraform execution:
-```
+```bash
 [profile {sub_account}]
 role_arn = arn:aws:iam::{organisation_id}:role/{role_name}
 source_profile = {main_account}
@@ -58,7 +58,7 @@ region = {region}
 
 ## Login using aws-mfa
 When you have configured everything you can call the following command, it will ask for your MFA code. Or you can optional provide your MFA code directly
-```
+```bash
 aws-mfa {sub_account}
 aws-mfa {sub_account} {mfa_code}
  ```
@@ -68,7 +68,7 @@ Now we can for example use this to run terraform by removing the specific profil
 
 ### Alter terraform scripts
 Normally you might have defined a profile to be used in your terraform scripts. Using this method the profile used will be the one you logged in to using aws-mfa.
-```
+```hcl
 provider "aws" {
   version = "~> 2.0"
   region = "eu-central-1"
@@ -79,7 +79,7 @@ provider "aws" {
 
 ### Run terraform as usual
 When you have altered the terraform scripts and called the ```aws-mfa``` script you should be able to use terraform as usual.
-```
+```bash
 terraform plan
 ```
  
