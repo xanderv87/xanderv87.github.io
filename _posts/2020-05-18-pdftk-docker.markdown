@@ -6,7 +6,7 @@ date:       2020-05-18 17:00:00
 author:     "Xander Verheij"
 
 categories:
-  - Infrastructure as code
+  - Random
 ---
 #PDFTK with docker
 
@@ -38,7 +38,4 @@ After you added this (you might need to restart your shell) you can use pdftk as
 function pdftk() {  docker run -w /work -v ${PWD}:/work agileek/pdftk "$@" }
 ```
 
-```
-
-```
 
