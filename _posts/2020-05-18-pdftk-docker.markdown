@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "PdfTK magic with Docker"
-description: "How to seamlessly use pdftk with docker"
+title:      "PDFtk magic with Docker"
+description: "How to seamlessly use PDFtk with docker"
 date:       2020-05-18 17:00:00
 author:     "Xander Verheij"
 header-img: assets/img/posts/pdftk-docker/document-icon.png
@@ -9,9 +9,9 @@ header-img: assets/img/posts/pdftk-docker/document-icon.png
 categories:
   - Random
 ---
-# PDFTK with docker
+# PDFtk with docker
 
-pdftk is a tool to do magic with pdf’s, some common use cases are the following:
+PDFtk is a tool to do magic with pdf’s, some common use cases are the following:
 
 - multiple pdf’s to one file
 
