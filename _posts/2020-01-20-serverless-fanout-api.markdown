@@ -1,5 +1,6 @@
 ---
 layout:     post
+comments: true
 title:      "Serverless fanout API"
 description: "How to create a serverless API that can fanout to multiple services/environments"
 date:       2020-01-20 17:00:00

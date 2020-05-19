@@ -1,5 +1,6 @@
 ---
 layout:     post
+comments: true
 title:      "PDFtk magic with Docker"
 description: "How to seamlessly use PDFtk with docker"
 date:       2020-05-18 12:00:00

@@ -1,5 +1,6 @@
 ---
 layout:     post
+comments: true
 title:      "SSH into private ec2-instances"
 description: "Using the SSH over SSM to connect to any ec2-instance in a private subnet"
 date:       2020-05-18 18:00:00

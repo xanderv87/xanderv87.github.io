@@ -1,5 +1,6 @@
 ---
 layout:     post
+comments: true
 title:      "Log into sub organization using AWS CLI (with MFA!)"
 description: "Using the AWS CLI to gain access to subaccounts while using MFA"
 date:       2020-05-18 17:00:00
