@@ -1,8 +1,8 @@
 ---
 layout:     post
 comments: true
-title:      "Log into sub organization using AWS CLI (with MFA!)"
-description: "Using the AWS CLI to gain access to subaccounts while using MFA"
+title:      "Log in as a role using AWS CLI (with MFA!)"
+description: "Using the AWS CLI to gain access to a role while using MFA"
 date:       2020-05-18 17:00:00
 author:     "Xander Verheij"
 header-img: assets/img/posts/aws-mfa-subaccount/1200px-Amazon_Web_Services_Logo.svg.png
