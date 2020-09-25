@@ -107,13 +107,13 @@ Here we created the needed service-roles to allow elastic beanstalk to do the ma
 These are the actual settings to set on the elastic beanstalk instance. A quick roundup:
 ### SystemType: enhanced
 Enables enhanced health monitoring
-###ManagedActionsEnabled
+### ManagedActionsEnabled
 Enables managed updated
-###PreferredStartTime
+### PreferredStartTime
 The time at which the managed updates are done
-###UpdateLevel
+### UpdateLevel
 Can be either Patch or Minor; do you update from 1.2.1 to 1.2.2 or 1.3.1
-###InstanceRefreshEnabled
+### InstanceRefreshEnabled
 Create a new instance even if there is no update to be performed.
-###ServiceRole & ServiceRoleForManagedUpdates
+### ServiceRole & ServiceRoleForManagedUpdates
 The arn for the roles you just created, making sure the elasticbeanstalk has the appropriate rights.
