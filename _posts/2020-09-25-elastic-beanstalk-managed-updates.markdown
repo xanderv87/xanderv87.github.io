@@ -56,7 +56,7 @@ resource "aws_iam_role" "eb_service_role" {
 EOF
 }
 ```
-Here we created the needed service-roles to allow elastic beanstalk to do the managed updates and to enable enhanced health. Enhanced health is an prerequisit for managed updates.
+Here we created the needed service-roles to allow elastic beanstalk to do the managed updates and to enable enhanced health. Enhanced health is a prerequisit for managed updates.
 
 ```
 
@@ -108,7 +108,7 @@ These are the actual settings to set on the elastic beanstalk instance. A quick 
 ### SystemType: enhanced
 Enables enhanced health monitoring
 ### ManagedActionsEnabled
-Enables managed updated
+Enables managed updates
 ### PreferredStartTime
 The time at which the managed updates are done
 ### UpdateLevel
